@@ -18,7 +18,7 @@ const Resume = (props: Props) => {
                             <span className="w-8 mt-2">
                                 <img
                                     alt="icon"
-                                    srcset="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75 2x"
+                                    srcSet="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75 2x"
                                     src="/_next/image?url=%2Fimages%2Fcontact%2Fphone-call%201.png&amp;w=64&amp;q=75"
                                     width="30"
                                     height="20"
@@ -57,7 +57,7 @@ const Resume = (props: Props) => {
                             <span className="w-8 mt-2">
                                 <img
                                     alt="icon"
-                                    srcset="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75 2x"
+                                    srcSet="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75 2x"
                                     src="/_next/image?url=%2Fimages%2Fcontact%2Femail%201.png&amp;w=64&amp;q=75"
                                     width="30"
                                     height="20"
@@ -93,7 +93,7 @@ const Resume = (props: Props) => {
                     <div className="  dark:border-[#212425] dark:border-2 mb-16  md:p-[48px]  p-4   bg-color-810 rounded-xl dark:bg-[#111111] mb-[30px] md:mb-[60px]">
                         <h3 className="text-4xl ">
                             <span className="text-gray-lite dark:text-[#A6A6A6] ">
-                                I'm always open to discussing product
+                                I&apos;m always open to discussing product
                             </span>
                             {/* <br/> */}
                             <span className="font-semibold dark:text-white">
@@ -111,10 +111,10 @@ const Resume = (props: Props) => {
                         name="name"
                         className="block autofill:bg-transparent py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#FF6464] peer"
                         placeholder=" "
-                        required=""
+                        required={true}
                     />
                     <label
-                        for="name"
+                        htmlFor="name"
                         className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#FF6464] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
                     >
                         Name *
@@ -128,15 +128,15 @@ const Resume = (props: Props) => {
                         className="block autofill:text-red-900 needed py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#5185D4] peer"
                         placeholder=" "
                         id="user_email"
-                        required=""
+                        required={true}
                     />
                     <label
-                        for="user_email"
+                        htmlFor="user_email"
                         className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#CA56F2] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
                     >
                         Email *
                     </label>
-                    {/* <label for="user_email" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"/>Email *
+                    {/* <label htmlFor="user_email" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#5185D4] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"/>Email *
                     </label> */}
                 </div>
 
@@ -147,10 +147,10 @@ const Resume = (props: Props) => {
                         className="block autofill:bg-yellow-200 py-2.5 px-0 w-full text-sm text-gray-lite bg-transparent border-0 border-b-[2px] border-[#B5B5B5] appearance-none dark:text-white dark:border-[#333333] dark:focus:border-[#FF6464] focus:outline-none focus:ring-0 focus:border-[#CA56F2] peer"
                         placeholder=" "
                         id="message"
-                        required=""
+                        required={true}
                     />
                     <label
-                        for="message"
+                        htmlFor="message"
                         className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-color-910 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-[#CA56F2] peer-focus:dark:text-[#FF6464] peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-8"
                     >
                         Message *

@@ -34,7 +34,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F1.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F1.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F1.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F1.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F1.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -58,7 +58,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F3.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F3.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F3.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F3.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F3.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -82,7 +82,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F5.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F5.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F5.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F5.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F5.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -106,7 +106,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F7.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F7.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F7.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F7.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F7.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -130,7 +130,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F9.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F9.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F9.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F9.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F9.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -159,7 +159,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F2.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F2.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F2.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F2.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F2.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -183,7 +183,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F4.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F4.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F4.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F4.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F4.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -207,7 +207,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F6.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F6.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F6.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F6.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F6.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"
@@ -231,7 +231,7 @@ const Resume = (props: Props) => {
                                     <div className="overflow-hidden rounded-lg">
                                         <img
                                             alt="portfolio Image"
-                                            srcset="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F8.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F8.jpg&amp;w=640&amp;q=75 2x"
+                                            srcSet="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F8.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F8.jpg&amp;w=640&amp;q=75 2x"
                                             src="/_next/image?url=%2Fimages%2Fwork_images%2Fsmall%2F8.jpg&amp;w=640&amp;q=75"
                                             width="300"
                                             height="300"

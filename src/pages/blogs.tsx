@@ -19,7 +19,7 @@ const Resume = (props: Props) => {
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         alt="blog"
-                                        srcset="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F1.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F1.jpg&amp;w=640&amp;q=75 2x"
+                                        srcSet="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F1.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F1.jpg&amp;w=640&amp;q=75 2x"
                                         src="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F1.jpg&amp;w=640&amp;q=75"
                                         width="310"
                                         height="310"
@@ -48,7 +48,7 @@ const Resume = (props: Props) => {
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         alt="blog"
-                                        srcset="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F2.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F2.jpg&amp;w=640&amp;q=75 2x"
+                                        srcSet="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F2.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F2.jpg&amp;w=640&amp;q=75 2x"
                                         src="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F2.jpg&amp;w=640&amp;q=75"
                                         width="310"
                                         height="310"
@@ -76,7 +76,7 @@ const Resume = (props: Props) => {
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         alt="blog"
-                                        srcset="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F3.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F3.jpg&amp;w=640&amp;q=75 2x"
+                                        srcSet="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F3.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F3.jpg&amp;w=640&amp;q=75 2x"
                                         src="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F3.jpg&amp;w=640&amp;q=75"
                                         width="310"
                                         height="310"
@@ -105,7 +105,7 @@ const Resume = (props: Props) => {
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         alt="blog"
-                                        srcset="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F4.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F4.jpg&amp;w=640&amp;q=75 2x"
+                                        srcSet="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F4.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F4.jpg&amp;w=640&amp;q=75 2x"
                                         src="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F4.jpg&amp;w=640&amp;q=75"
                                         width="310"
                                         height="310"
@@ -134,7 +134,7 @@ const Resume = (props: Props) => {
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         alt="blog"
-                                        srcset="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F5.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F5.jpg&amp;w=640&amp;q=75 2x"
+                                        srcSet="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F5.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F5.jpg&amp;w=640&amp;q=75 2x"
                                         src="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F5.jpg&amp;w=640&amp;q=75"
                                         width="310"
                                         height="310"
@@ -162,7 +162,7 @@ const Resume = (props: Props) => {
                                 <div className="overflow-hidden rounded-lg">
                                     <img
                                         alt="blog"
-                                        srcset="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F6.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F6.jpg&amp;w=640&amp;q=75 2x"
+                                        srcSet="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F6.jpg&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F6.jpg&amp;w=640&amp;q=75 2x"
                                         src="/_next/image?url=%2Fimages%2Fblog_images%2Fsmall%2F6.jpg&amp;w=640&amp;q=75"
                                         width="310"
                                         height="310"

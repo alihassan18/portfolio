@@ -42,7 +42,7 @@ export default function Home() {
                             >
                                 <img
                                     alt="icon"
-                                    srcset="/images/icons/icon-1.svg 1x, /images/icons/icon-1.svg 2x"
+                                    srcSet="/images/icons/icon-1.svg 1x, /images/icons/icon-1.svg 2x"
                                     src="/images/icons/icon-1.svg"
                                     width="40"
                                     height="40"
@@ -69,7 +69,7 @@ export default function Home() {
                             >
                                 <img
                                     alt="icon"
-                                    srcset="/images/icons/icon-2.svg 1x, /images/icons/icon-2.svg 2x"
+                                    srcSet="/images/icons/icon-2.svg 1x, /images/icons/icon-2.svg 2x"
                                     src="/images/icons/icon-2.svg"
                                     width="40"
                                     height="40"
@@ -96,7 +96,7 @@ export default function Home() {
                             >
                                 <img
                                     alt="icon"
-                                    srcset="/images/icons/icon-3.svg 1x, /images/icons/icon-3.svg 2x"
+                                    srcSet="/images/icons/icon-3.svg 1x, /images/icons/icon-3.svg 2x"
                                     src="/images/icons/icon-3.svg"
                                     width="40"
                                     height="40"
@@ -123,7 +123,7 @@ export default function Home() {
                             >
                                 <img
                                     alt="icon"
-                                    srcset="/images/icons/icon-4.svg 1x, /images/icons/icon-4.svg 2x"
+                                    srcSet="/images/icons/icon-4.svg 1x, /images/icons/icon-4.svg 2x"
                                     src="/images/icons/icon-4.svg"
                                     width="40"
                                     height="40"
@@ -150,7 +150,7 @@ export default function Home() {
                             >
                                 <img
                                     alt="icon"
-                                    srcset="/images/icons/icon-5.svg 1x, /images/icons/icon-5.svg 2x"
+                                    srcSet="/images/icons/icon-5.svg 1x, /images/icons/icon-5.svg 2x"
                                     src="/images/icons/icon-5.svg"
                                     width="40"
                                     height="40"
@@ -177,7 +177,7 @@ export default function Home() {
                             >
                                 <img
                                     alt="icon"
-                                    srcset="/images/icons/icon-6.svg 1x, /images/icons/icon-6.svg 2x"
+                                    srcSet="/images/icons/icon-6.svg 1x, /images/icons/icon-6.svg 2x"
                                     src="/images/icons/icon-6.svg"
                                     width="40"
                                     height="40"
@@ -230,8 +230,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -250,7 +250,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="-4"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -258,8 +258,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -278,7 +278,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="-3"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -286,8 +286,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -306,7 +306,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="-2"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -314,8 +314,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -334,7 +334,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="-1"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -342,8 +342,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -363,7 +363,7 @@ export default function Home() {
                                             <div
                                                 data-index="0"
                                                 className="slick-slide"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 aria-hidden="true"
                                                 style={{
                                                     outline: "none",
@@ -373,8 +373,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -394,7 +394,7 @@ export default function Home() {
                                             <div
                                                 data-index="1"
                                                 className="slick-slide"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 aria-hidden="true"
                                                 style={{
                                                     outline: "none",
@@ -404,8 +404,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -425,7 +425,7 @@ export default function Home() {
                                             <div
                                                 data-index="2"
                                                 className="slick-slide slick-active slick-current"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 aria-hidden="false"
                                                 style={{
                                                     outline: "none",
@@ -435,8 +435,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -456,7 +456,7 @@ export default function Home() {
                                             <div
                                                 data-index="3"
                                                 className="slick-slide slick-active"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 aria-hidden="false"
                                                 style={{
                                                     outline: "none",
@@ -466,8 +466,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -487,7 +487,7 @@ export default function Home() {
                                             <div
                                                 data-index="4"
                                                 className="slick-slide slick-active"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 aria-hidden="false"
                                                 style={{
                                                     outline: "none",
@@ -497,8 +497,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -518,7 +518,7 @@ export default function Home() {
                                             <div
                                                 data-index="5"
                                                 className="slick-slide slick-active"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 aria-hidden="false"
                                                 style={{
                                                     outline: "none",
@@ -528,8 +528,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -548,7 +548,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="6"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-active slick-cloned"
                                                 aria-hidden="false"
                                                 style={{ width: "146px" }}
@@ -556,8 +556,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -576,7 +576,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="7"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -584,8 +584,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-2.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -604,7 +604,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="8"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -612,8 +612,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-3.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -632,7 +632,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="9"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -640,8 +640,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-4.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -660,7 +660,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="10"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -668,8 +668,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-5.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
@@ -688,7 +688,7 @@ export default function Home() {
                                             </div>
                                             <div
                                                 data-index="11"
-                                                tabindex="-1"
+                                                // tabindex="-1"
                                                 className="slick-slide slick-cloned"
                                                 aria-hidden="true"
                                                 style={{ width: "146px" }}
@@ -696,8 +696,8 @@ export default function Home() {
                                                 <div>
                                                     <img
                                                         alt="brand"
-                                                        tabindex="-1"
-                                                        srcset="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
+                                                        // tabindex="-1"
+                                                        srcSet="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75 2x"
                                                         src="/_next/image?url=%2Fimages%2Fslider%2Fbrand-1.png&amp;w=384&amp;q=75"
                                                         width="150"
                                                         height="50"
