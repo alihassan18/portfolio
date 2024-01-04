@@ -1,20 +1,46 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 type NavItemProps = {
     href: string;
     label: string;
 };
 
+const routes: NavItemProps[] = [
+    {
+        href: "/",
+        label: "Home",
+    },
+    {
+        href: "/resume",
+        label: "Resume",
+    },
+    {
+        href: "/works",
+        label: "Works",
+    },
+    {
+        href: "/blogs",
+        label: "Blogs",
+    },
+    {
+        href: "/contact",
+        label: "Contact",
+    },
+];
+
 export const Navbar = () => {
     return (
         <div className="lg:w-[526px] h-[144px] hidden lg:block p-[30px] ml-auto mb-10 rounded-[16px] bg-white dark:bg-[#111111]">
             <nav className="hidden lg:block">
                 <ul className="flex">
-                    <NavItem href="/" label="Home" />
-                    <NavItem href="/resume" label="Resume" />
-                    <NavItem href="/works" label="Works" />
-                    <NavItem href="/blogs" label="Blogs" />
-                    <NavItem href="/contact" label="Contact" />
+                    {routes.map((route, key) => (
+                        <NavItem
+                            href={route?.href}
+                            label={route?.label}
+                            key={key}
+                        />
+                    ))}
                 </ul>
             </nav>
         </div>
@@ -22,11 +48,16 @@ export const Navbar = () => {
 };
 
 const NavItem = ({ href, label }: NavItemProps) => {
+    const router = useRouter();
+    const isActive = router.pathname == href;
     return (
         <Link
             href={href}
             passHref
-            className="w-full h-20 rounded-[10px]  cursor-pointer  font-poppins  bg-[#F3F6F6]  font-medium mx-2.5  text-xtiny text-gray-lite dark:text-[#A6A6A6]    justify-center flex flex-col items-center   transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] lg:text-white lg:dark:text-white   lg:bg-gradient-to-r from-[#FA5252] to-[#DD2476] "
+            className={`w-full h-20 rounded-[10px]  cursor-pointer  font-poppins  bg-[#F3F6F6]  font-medium mx-2.5  text-xtiny text-gray-lite dark:text-[#A6A6A6]    justify-center flex flex-col items-center   transition-all duration-300 ease-in-out dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476]  ${
+                isActive &&
+                "lg:text-white lg:dark:text-white   lg:bg-gradient-to-r from-[#FA5252] to-[#DD2476]"
+            } `}
         >
             <span className="text-xl mb-1">
                 <svg
