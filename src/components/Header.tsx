@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import { useState } from "react";
+import { Dialog } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
 
-type Props = {};
+export default function Example() {
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-const Header = (props: Props) => {
     return (
         <div className="container w-full bg-[#F3F6F6] dark:bg-black lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5 lg:px-0 lg:pt-[50px]">
-            <div className="w-full flex justify-between px-4">
+            <div className="w-full flex justify-between lg:px-4">
                 <Link href="/">
                     <Image
                         alt="logo"
@@ -135,7 +137,10 @@ const Header = (props: Props) => {
                             ></line>
                         </svg>
                     </span>
-                    <span className="lg:opacity-0 lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 ">
+                    <span
+                        className="lg:opacity-0 lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 "
+                        onClick={() => setMobileMenuOpen(true)}
+                    >
                         <svg
                             stroke="currentColor"
                             fill="currentColor"
@@ -150,9 +155,68 @@ const Header = (props: Props) => {
                     </span>
                 </div>
             </div>
-            {/* Other navigation content */}
+            <Dialog
+                as="div"
+                className="lg:hidden"
+                open={mobileMenuOpen}
+                onClose={setMobileMenuOpen}
+            >
+                <div className="fixed inset-0 z-10" />
+                <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                    <div className="flex items-center justify-between">
+                        <Link href="/">
+                            <Image
+                                alt="logo"
+                                src="/images/logo/logo.png" // Adjust the path to your image
+                                width={153}
+                                height={26}
+                                className="h-[26px] lg:h-[32px]"
+                                priority // Use this to preload the image on the current route
+                            />
+                        </Link>
+                        <button
+                            type="button"
+                            className="-m-2.5 rounded-md p-2.5 text-gray-700"
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
+                            <span className="sr-only">Close menu</span>
+                            <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                        </button>
+                    </div>
+                    <div className="mt-6 flow-root">
+                        <div className="-my-6 divide-y divide-gray-500/10">
+                            <div className="space-y-2 py-6">
+                                <a
+                                    href="#"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Features
+                                </a>
+                                <a
+                                    href="#"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Marketplace
+                                </a>
+                                <a
+                                    href="#"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Company
+                                </a>
+                            </div>
+                            <div className="py-6">
+                                <a
+                                    href="#"
+                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Log in
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </Dialog.Panel>
+            </Dialog>
         </div>
     );
-};
-
-export default Header;
+}

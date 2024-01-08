@@ -38,14 +38,15 @@ const Resume = (props: Props) => {
                                     style={{ background: "rgb(255, 244, 244)" }}
                                 >
                                     <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-                                        2021-2023
+                                        2014-2018
                                     </span>
                                     <h3 className="text-xl dark:text-white">
                                         {" "}
-                                        Ph.D in Horriblensess{" "}
+                                        BS Software Engineering{" "}
                                     </h3>
                                     <p className="dark:text-[#b7b7b7]">
-                                        ABC University, Los Angeles, CA
+                                        University of Agriculture, Faisalabad,
+                                        Pakistan
                                     </p>
                                 </div>
                                 <div
@@ -53,14 +54,14 @@ const Resume = (props: Props) => {
                                     style={{ background: "rgb(255, 241, 251)" }}
                                 >
                                     <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-                                        2019 - Present
+                                        2016 - 2018
                                     </span>
                                     <h3 className="text-xl dark:text-white">
                                         {" "}
-                                        Sr. Software Tester{" "}
+                                        MERN Stack Course{" "}
                                     </h3>
                                     <p className="dark:text-[#b7b7b7]">
-                                        Google Inc.
+                                        Saylani Mass Training Institute Fsd.
                                     </p>
                                 </div>
                                 <div
@@ -68,14 +69,14 @@ const Resume = (props: Props) => {
                                     style={{ background: "rgb(255, 244, 244)" }}
                                 >
                                     <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-                                        2021
+                                        2022
                                     </span>
                                     <h3 className="text-xl dark:text-white">
                                         {" "}
-                                        Best Developer{" "}
+                                        Career-Prep Fellowship{" "}
                                     </h3>
                                     <p className="dark:text-[#b7b7b7]">
-                                        University Of Melbourne, NA
+                                        Amal Academy
                                     </p>
                                 </div>
                             </div>
@@ -107,44 +108,101 @@ const Resume = (props: Props) => {
                                     style={{ background: "rgb(238, 245, 250)" }}
                                 >
                                     <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-                                        2017-2021
+                                        2023-Present
                                     </span>
                                     <h3 className="text-xl dark:text-white">
                                         {" "}
-                                        Computer Science{" "}
+                                        Team Lead MERN Stack & Web3 Developer{" "}
                                     </h3>
-                                    <p className="dark:text-[#b7b7b7]">
-                                        Imperialize Technical Institute
-                                    </p>
+
+                                    <a
+                                        href="https://www.linkedin.com/company/meta-ruffy"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        {" "}
+                                        <p className="dark:text-[#b7b7b7]">
+                                            Metaruffy
+                                        </p>
+                                    </a>
                                 </div>
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(242, 244, 255)" }}
                                 >
                                     <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-                                        2015-2017
+                                        2022-2023
                                     </span>
                                     <h3 className="text-xl dark:text-white">
                                         {" "}
-                                        Cr. Web Developer{" "}
+                                        Senior MERN Stack & Web3 Developer{" "}
                                     </h3>
-                                    <p className="dark:text-[#b7b7b7]">
-                                        ib-themes ltd.
-                                    </p>
+                                    <a
+                                        href="https://renesistech.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <p className="dark:text-[#b7b7b7]">
+                                            Renesis Tech
+                                        </p>
+                                    </a>
                                 </div>
                                 <div
                                     className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
                                     style={{ background: "rgb(238, 245, 250)" }}
                                 >
                                     <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
-                                        2008
+                                        2020-2022
                                     </span>
                                     <h3 className="text-xl dark:text-white">
                                         {" "}
-                                        Best Writter{" "}
+                                        Team Lead & MERN Stack Developer{" "}
+                                    </h3>
+
+                                    <a
+                                        href="https://magnusmage.com"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <p className="dark:text-[#b7b7b7]">
+                                            Magnus Mage (Pvt) Ltd
+                                        </p>
+                                    </a>
+                                </div>
+                                <div
+                                    className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                    style={{ background: "rgb(238, 245, 250)" }}
+                                >
+                                    <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
+                                        2019-2020
+                                    </span>
+                                    <h3 className="text-xl dark:text-white">
+                                        {" "}
+                                        MERN Stack Developer{" "}
+                                    </h3>
+                                    <a
+                                        href="https://www.linkedin.com/company/aztek-computers-limited"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <p className="dark:text-[#b7b7b7]">
+                                            Aztekcomputers.com
+                                        </p>
+                                    </a>
+                                </div>
+                                <div
+                                    className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2"
+                                    style={{ background: "rgb(238, 245, 250)" }}
+                                >
+                                    <span className="text-tiny text-gray-lite dark:text-[#b7b7b7]">
+                                        2018-2019
+                                    </span>
+                                    <h3 className="text-xl dark:text-white">
+                                        {" "}
+                                        MERN Stack Developer{" "}
                                     </h3>
                                     <p className="dark:text-[#b7b7b7]">
-                                        Online Typodev Soluation Ltd.
+                                        Stepstones Technologies
                                     </p>
                                 </div>
                             </div>

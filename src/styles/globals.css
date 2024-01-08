@@ -1545,6 +1545,13 @@ html {
     }
 }
 
+@media (max-width: 660px) {
+    .container {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
 .about-box {
     display: flex;
     gap: 1rem;

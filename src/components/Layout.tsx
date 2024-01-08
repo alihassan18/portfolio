@@ -32,23 +32,6 @@ const Layout = ({ children }: Props) => {
                     </div>
                 </div>
             </main>
-
-            <style jsx global>{`
-                .tab {
-                    padding: 8px 16px;
-                    border-radius: 10px;
-                    background-color: #f3f3f3;
-                    margin-right: 8px;
-                    font-weight: 500;
-                    color: #333;
-                }
-
-                .tab:hover {
-                    background-color: #e2e2e2;
-                }
-
-                /* Add additional global styles as needed */
-            `}</style>
         </>
     );
 };
