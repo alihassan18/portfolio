@@ -12,7 +12,7 @@ const Layout = ({ children }: Props) => {
     return (
         <>
             <Head>
-                <title>My Portfolio</title>
+                <title>Ali Hassan Portfolio</title>
             </Head>
 
             <main className="bg-homeBg min-h-screen bg-no-repeat bg-center bg-cover bg-fixed dark:bg-homeTwoBg-dark md:pb-16 w-full">

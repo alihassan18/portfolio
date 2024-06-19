@@ -21,7 +21,7 @@ export default function Example() {
                     />
                 </Link>
                 <div className="flex items-center">
-                    <span className="bg-white w-[40px] hover:text-white hidden h-[40px] rounded-full lg:flex justify-center items-center text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 ">
+                    {/* <span className="bg-white w-[40px] hover:text-white hidden h-[40px] rounded-full lg:flex justify-center items-center text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 ">
                         <svg
                             stroke="currentColor"
                             fill="none"
@@ -78,8 +78,8 @@ export default function Example() {
                                 y2="4.22"
                             ></line>
                         </svg>
-                    </span>
-                    <span className="bg-white w-[40px] hover:text-white flex items-center h-[40px] rounded-full lg:hidden justify-center items-center text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 ">
+                    </span> */}
+                    {/* <span className="bg-white w-[40px] hover:text-white flex items-center h-[40px] rounded-full lg:hidden justify-center items-center text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 ">
                         <svg
                             stroke="currentColor"
                             fill="none"
@@ -136,7 +136,7 @@ export default function Example() {
                                 y2="4.22"
                             ></line>
                         </svg>
-                    </span>
+                    </span> */}
                     <span
                         className="lg:opacity-0 lg:invisible visible opacity-100 bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 "
                         onClick={() => setMobileMenuOpen(true)}
@@ -186,33 +186,33 @@ export default function Example() {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
-                                <a
+                                <Link
+                                    href="/"
+                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                >
+                                    Home
+                                </Link>
+                                {/* <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Features
-                                </a>
-                                <a
-                                    href="#"
+                                    Resume
+                                </a> */}
+                                <Link
+                                    href="/contact"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Marketplace
-                                </a>
-                                <a
-                                    href="#"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
-                                    Company
-                                </a>
+                                    Contact
+                                </Link>
                             </div>
-                            <div className="py-6">
+                            {/* <div className="py-6">
                                 <a
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Log in
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Dialog.Panel>

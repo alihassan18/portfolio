@@ -190,16 +190,7 @@ const Resume = (props: Props) => {
                 <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
                     <div className="container">
                         <p className="text-center py-6 text-gray-lite dark:text-color-910 ">
-                            © 2024 All Rights Reserved by{" "}
-                            <a
-                                className="hover:text-[#FA5252] duration-300 transition"
-                                href="https://themeforest.net/user/ib-themes"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                ib-themes
-                            </a>
-                            .
+                            © 2024 All Rights Reserved by Ali Hassan .
                         </p>
                     </div>
                 </footer>

@@ -218,10 +218,10 @@ const Resume = (props: Props) => {
                             <div className=" mb-7">
                                 <div className="flex justify-between py-1">
                                     <span className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                                        Web Design
+                                        Web Development
                                     </span>
                                     <span className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                                        80%
+                                        90%
                                     </span>
                                 </div>
                                 <svg
@@ -298,10 +298,10 @@ const Resume = (props: Props) => {
                             <div className=" mb-7">
                                 <div className="flex justify-between py-1">
                                     <span className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                                        Illustrator
+                                        Blockchain Solutions
                                     </span>
                                     <span className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-                                        65%
+                                        85%
                                     </span>
                                 </div>
                                 <svg
@@ -338,7 +338,7 @@ const Resume = (props: Props) => {
                             <div className=" mb-7">
                                 <div className="flex justify-between py-1">
                                     <span className=" text-base text-gray-lite font-semibold dark:text-[#A6A6A6]">
-                                        Photoshope
+                                        AI Solutions
                                     </span>
                                     <span className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
                                         75%
@@ -382,34 +382,40 @@ const Resume = (props: Props) => {
                             </h4>
                             <div className="flex gap-x-3 gap-y-3 md:gap-y-3 md:gap-x-3 flex-wrap">
                                 <button className="resume-btn text-[15px]">
-                                    Digital Design
+                                    React.js
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Marketing
+                                    Next.js
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Social Media
+                                    Node.js
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Print
+                                    Nest.js
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Time Management
+                                    Express.js
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Flexibility
+                                    Typescript
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Print
+                                    Open AI
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Time Management
+                                    Solidity
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Flexibility
+                                    Web3.js
                                 </button>
                                 <button className="resume-btn text-[15px]">
-                                    Print
+                                    Ethers
+                                </button>
+                                <button className="resume-btn text-[15px]">
+                                    Git
+                                </button>
+                                <button className="resume-btn text-[15px]">
+                                    Docker
                                 </button>
                             </div>
                         </div>
@@ -418,16 +424,7 @@ const Resume = (props: Props) => {
                 <footer className="overflow-hidden rounded-b-2xl bg-slate-50 dark:bg-black">
                     <div className="container">
                         <p className="text-center py-6 text-gray-lite dark:text-color-910 ">
-                            © 2024 All Rights Reserved by{" "}
-                            <a
-                                className="hover:text-[#FA5252] duration-300 transition"
-                                href="https://themeforest.net/user/ib-themes"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                ib-themes
-                            </a>
-                            .
+                            © 2024 All Rights Reserved by Ali Hassan .
                         </p>
                     </div>
                 </footer>
