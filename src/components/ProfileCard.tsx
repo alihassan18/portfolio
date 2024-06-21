@@ -6,6 +6,7 @@ import {
     FaBirthdayCake,
     FaDownload,
 } from "react-icons/fa";
+import FiverrBadge from "./FiverrBadge";
 
 const ProfileCard = () => {
     return (
@@ -106,6 +107,7 @@ const ProfileCard = () => {
                         </span>
                     </a>
                 </div>
+                <FiverrBadge />
                 <div className="p-7 rounded-2xl mt-7 bg-[#F3F6F6] dark:bg-[#1D1D1D]">
                     <div className="flex py-2.5 border-b border-[#E3E3E3] dark:border-[#3D3A3A]">
                         <span className="flex-shrink-0 socialbtn bg-white dark:bg-black text-[#E93B81] shadow-md">
