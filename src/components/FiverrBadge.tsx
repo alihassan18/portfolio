@@ -9,7 +9,7 @@ const FiverrBadge = (props: Props) => {
         <div
             itemScope
             itemType="http://schema.org/Person"
-            className="fiverr-seller-widget"
+            className="fiverr-seller-widget mt-2"
             style={{ display: "inline-block" }}
         >
             <a
