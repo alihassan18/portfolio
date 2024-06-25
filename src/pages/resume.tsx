@@ -9,7 +9,7 @@ const Resume = (props: Props) => {
             <Head>
                 <title>
                     Ali Hassan - MERN Stack Developer & Blockchain Specialist |
-                    Home
+                    Resume
                 </title>
                 <meta
                     name="title"

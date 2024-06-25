@@ -9,7 +9,7 @@ const Contact = (props: Props) => {
             <Head>
                 <title>
                     Ali Hassan - MERN Stack Developer & Blockchain Specialist |
-                    Home
+                    Contact
                 </title>
                 <meta
                     name="title"
