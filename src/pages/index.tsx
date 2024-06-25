@@ -10,7 +10,8 @@ export default function Home() {
         <>
             <Head>
                 <title>
-                    Ali Hassan - MERN Stack Developer & Blockchain Specialist
+                    Ali Hassan - MERN Stack Developer & Blockchain Specialist |
+                    Home
                 </title>
                 <meta
                     name="title"
@@ -86,6 +87,10 @@ export default function Home() {
                     href="/favicon-16x16.png"
                 />
                 <link rel="manifest" href="/site.webmanifest" />
+                <meta
+                    name="keywords"
+                    content="Ali Hassan, MERN Stack developer, Web3 developer, Pakistan web developer, Full stack developer, JavaScript developer, React developer, Node.js developer, Blockchain developer, Web application development, dApp development, Smart contract development"
+                />
             </Head>
             <main className={`${inter.className}`}>
                 <div className="lg:rounded-2xl bg-white dark:bg-[#111111]">

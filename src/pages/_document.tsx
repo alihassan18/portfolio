@@ -6,6 +6,11 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <meta
+                    name="keywords"
+                    content="Ali Hassan, MERN Stack developer, Web3 developer, Pakistan web developer, Full stack developer, JavaScript developer, React developer, Node.js developer, Blockchain developer, Web application development, dApp development, Smart contract development"
+                />
+
+                <meta
                     name="google-site-verification"
                     content="_lil5qgvKjMLv2n6GEzaAZ6yEIQ8a3yJtLK6JogQTTU"
                 />

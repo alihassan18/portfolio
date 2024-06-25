@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 
 type Props = {};
@@ -5,6 +6,90 @@ type Props = {};
 const Resume = (props: Props) => {
     return (
         <div>
+            <Head>
+                <title>
+                    Ali Hassan - MERN Stack Developer & Blockchain Specialist |
+                    Home
+                </title>
+                <meta
+                    name="title"
+                    content="Ali Hassan - MERN Stack Developer & Blockchain Specialist"
+                />
+                <meta
+                    name="description"
+                    content="Experienced MERN Stack Developer specializing in blockchain, Web3, NFT marketplace development, and more. Proficient in JavaScript, TypeScript, Ether.js, Solidity, and other cutting-edge technologies."
+                />
+                <meta
+                    name="keywords"
+                    content="MERN Stack Developer, Blockchain Developer, Web3, NFT Marketplace, JavaScript, TypeScript, Ether.js, Solidity, Next.js, Portfolio"
+                />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://www.alihassan.site/" />
+                <meta
+                    property="og:title"
+                    content="Ali Hassan - MERN Stack Developer & Blockchain Specialist"
+                />
+                <meta
+                    property="og:description"
+                    content="Experienced MERN Stack Developer specializing in blockchain, Web3, NFT marketplace development, and more. Proficient in JavaScript, TypeScript, Ether.js, Solidity, and other cutting-edge technologies."
+                />
+                <meta
+                    property="og:image"
+                    content="https://www.alihassan.site/assets/images/profile-picture.jpeg"
+                />
+
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta
+                    property="twitter:url"
+                    content="https://x.com/alihassanak47"
+                />
+                <meta
+                    property="twitter:title"
+                    content="Ali Hassan - MERN Stack Developer & Blockchain Specialist"
+                />
+                <meta
+                    property="twitter:description"
+                    content="Experienced MERN Stack Developer specializing in blockchain, Web3, NFT marketplace development, and more. Proficient in JavaScript, TypeScript, Ether.js, Solidity, and other cutting-edge technologies."
+                />
+                <meta
+                    property="twitter:image"
+                    content="https://www.alihassan.site/assets/images/profile-picture.jpeg"
+                />
+
+                <meta name="author" content="Ali Hassan" />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                />
+                <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+                <link
+                    rel="icon"
+                    href="https://www.alihassan.site/favicon.ico"
+                />
+                <link
+                    rel="apple-touch-icon"
+                    sizes="180x180"
+                    href="/apple-touch-icon.png"
+                />
+                <link
+                    rel="icon"
+                    type="image/png"
+                    sizes="32x32"
+                    href="/favicon-32x32.png"
+                />
+                <link
+                    rel="icon"
+                    type="image/png"
+                    sizes="16x16"
+                    href="/favicon-16x16.png"
+                />
+                <link rel="manifest" href="/site.webmanifest" />
+                <meta
+                    name="keywords"
+                    content="Ali Hassan, MERN Stack developer, Web3 developer, Pakistan web developer, Full stack developer, JavaScript developer, React developer, Node.js developer, Blockchain developer, Web application development, dApp development, Smart contract development"
+                />
+            </Head>
             <div data-aos="fade" className="aos-init aos-animate">
                 <div className="container px-4 sm:px-5 md:px-10 lg:px-14">
                     <div className="py-12">
