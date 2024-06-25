@@ -10,11 +10,11 @@ export default function Home() {
         <>
             <Head>
                 <title>
-                    Ali Hassann - MERN Stack Developer & Blockchain Specialist
+                    Ali Hassan - MERN Stack Developer & Blockchain Specialist
                 </title>
                 <meta
                     name="title"
-                    content="Ali Hassann - MERN Stack Developer & Blockchain Specialist"
+                    content="Ali Hassan - MERN Stack Developer & Blockchain Specialist"
                 />
                 <meta
                     name="description"
